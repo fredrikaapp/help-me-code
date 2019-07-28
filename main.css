@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  background-color: #F1ADBF;
 }
 
 h1 {
@@ -30,4 +31,47 @@ input {
 
 .addOption {
   margin-top: 10px;
+  width: 140px;
+  height: 30px;
+  background-color: #b0175e;
+  border-radius: 0px;
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: 1px;
+
+}
+
+.addOption:focus {
+  outline: none;
+}
+
+.addOption:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  font-weight: bold;
+  background-color: #F9DFED;
+}
+
+.submit {
+  margin-top: 10px;
+  width: 120px;
+  height: 50px;
+  background-color: #b0175e;
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 50px
+}
+
+.submit:focus {
+  outline: none;
+}
+
+.submit:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  background-color: #F9DFED;
+  font-weight: bold;
 }
