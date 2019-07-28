@@ -33,11 +33,11 @@ input {
   margin-top: 10px;
   width: 140px;
   height: 30px;
-  background-color: #F9DFED;
-  border-radius: 10px;
   font-weight: lighter;
   font-size: 10px;
   letter-spacing: 1px;
+  background-color: #F1ADBF;
+  border: 2px solid #b0175e;
 }
 
 .addOption:focus {
@@ -49,8 +49,7 @@ input {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   outline: none;
-  background-color: #b0175e;
-  border-radius: 10px;
+  background-color: #F9DFED;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -58,12 +57,13 @@ input {
   margin-top: 15px;
   width: 120px;
   height: 40px;
-  background-color: #b0175e;
   font-weight: lighter;
   font-size: 14px;
+  background-color: #b0175e;
   letter-spacing: 2px;
   margin-bottom: 50px;
-  border-radius: 10px;
+  background-color: #F1ADBF;
+  border: 2px solid #b0175e;
 }
 
 .submit:focus {
@@ -75,6 +75,5 @@ input {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   background-color: #F9DFED;
-  border-radius: 10px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
