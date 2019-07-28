@@ -33,7 +33,7 @@ input {
   margin-top: 10px;
   width: 140px;
   height: 30px;
-  background-color: #b0175e;
+  background-color: #F9DFED;
   border-radius: 0px;
   font-weight: lighter;
   font-size: 10px;
@@ -50,7 +50,7 @@ input {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   font-weight: bold;
-  background-color: #F9DFED;
+  background-color: #b0175e;
 }
 
 .submit {
